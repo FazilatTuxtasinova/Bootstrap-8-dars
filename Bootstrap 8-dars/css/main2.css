@@ -1,0 +1,106 @@
+.bg{
+    background: linear-gradient(90deg, #16ef99, #2896a5, #0a41ae);
+    height: 450px;
+    width: 100%;
+}
+.sircle{
+    position: relative;
+    top: 400px;
+}
+.bir{
+    position: absolute;
+    margin-left: 100px;
+    width: 150px;
+    height: 150px;
+    background-color: rgba(255,255,255,.2);
+    border-radius: 30px;
+    top: -160px;
+    left: 80%;
+    animation-name: wrap;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes wrap {
+    0%{
+        transform: translate(0,600px)rotate(500deg);
+    }
+}
+.ikki{
+    position: absolute;
+    margin-left: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255,255,255,.2);
+    border-radius: 30px;
+    top: -160px;
+    left: 70%;
+    animation-name: wrap;
+    animation-duration: 5.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes wrap {
+    0%{
+        transform: translate(0,600px)rotate(500deg);
+    }
+}
+.uch{
+    position: absolute;
+    margin-left: 100px;
+    width: 80px;
+    height: 80px;
+    background-color: rgba(255,255,255,.2);
+    border-radius: 15px;
+    top: -160px;
+    left: 60%;
+    animation-name: wrap;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes wrap {
+    0%{
+        transform: translate(0,600px)rotate(500deg);
+    }
+}
+.tort{
+    position: absolute;
+    margin-left: 100px;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255,255,255,.2);
+    border-radius: 15px;
+    top: -160px;
+    left: 50%;
+    animation-name: wrap;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes wrap {
+    0%{
+        transform: translate(0,600px)rotate(500deg);
+    }
+}
+.olti{
+    position: absolute;
+    margin-left: 100px;
+    width: 180px;
+    height: 180px;
+    background-color: rgba(255,255,255,.2);
+    border-radius: 30px;
+    top: -160px;
+    left: 25%;
+    animation-name: wrap;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes wrap {
+    0%{
+        transform: translate(0,600px)rotate(500deg);
+    }
+}
+
+
